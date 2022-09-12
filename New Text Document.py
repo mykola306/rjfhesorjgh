@@ -5,9 +5,7 @@ import pygame
 
 WHITE = (255, 255,255)
 BLACK = (0,0,0)
-RED = (255,0,0)
-GREEN = (0,255,0)
-BLUE = (0,0, 255)
+
 
 window = display.set_mode((600,600))
 back = (225,225,255)
@@ -32,13 +30,7 @@ class Fly():
         self.rect.y = random.randint(10,580)
     def catch(self, x,y):
         if self.rect.collidepoint(x,y):
-            return True
-        else:
-            return False
-    #второй способ добвить поинтс
-    #def show_points(self):
-        #text1 = f1.render("Score" + str(points), 1 (180,0,0))
-        #sc.blit(text1,(10,50))
+zsrhfnrdmfyxtjhfbszdyxfctjfhgf0,50))
 
 #картинка и надпись
 #win = transform.scale(image.load('win.png'), (600,600)), (0, 0))
